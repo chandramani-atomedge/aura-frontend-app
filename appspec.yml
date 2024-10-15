@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: / # Deploy everything in the root of the repository
+    destination: /var/www/html # Adjust the destination as needed
+hooks:
+  AfterInstall:
+    - location: scripts/install_dependencies.sh
+      timeout: 300
+      runas: root
