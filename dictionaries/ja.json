@@ -1,0 +1,25 @@
+{
+  "form": {
+    "heading": "オーラ"
+  },
+  "signup": {
+    "Signup": "サインアップ",
+    "subheading": "サインアップ方法を選択してください",
+    "gmail": "Gmailでサインイン",
+    "outlook": "Outlookでサインイン",
+    "email": "メール",
+    "phone": "電話",
+    "name": "名前",
+    "mobile": "国番号付き電話番号",
+    "password": "パスワード",
+    "terms": "サインアップすることにより、私たちの",
+    "conditions": "利用規約およびプライバシーポリシーに同意したことになります",
+    "account": "すでにアカウントをお持ちですか？",
+    "Signin": "サインイン",
+    "description": "ロレム・イプサムは印刷および組版業界の単なるダミーテキストです。",
+    "validation": {
+      "required": "名前は必須です",
+      "noSpaces": "名前にスペースを含めることはできません"
+    }
+  }
+}

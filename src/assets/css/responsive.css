@@ -1,0 +1,17 @@
+@media only screen and (min-width:768px) {
+    .logo-centered {
+        text-align: justify;
+        position: relative;
+        margin-top: -14px;
+    }
+
+    .carousel-item img {
+        width: 100%;
+    }
+
+    .signup-slider-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

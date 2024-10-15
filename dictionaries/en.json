@@ -1,0 +1,43 @@
+{
+  "form": {
+    "heading": "Aura",
+    "Signup": "Sign up"
+  },
+  "signup": {
+    "Signup": "Sign up",
+    "subheading": "Please choose Signup method",
+    "gmail": " Sign in with Gmail",
+    "outlook": "Sign in with Outlook",
+    "email": "Email",
+    "phone": "Phone",
+    "name": "Name",
+    "mobile": "Phone with country code",
+    "password": "Password",
+    "terms": "By Signing up you agree to accept our",
+    "conditions": "Terms of Service and Privacy Policy",
+    "account": "Already have an account?",
+    "Signin": "Sign in",
+    "description": " Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "validation": {
+      "required": "Name is required",
+      "noSpaces": "Name cannot contain spaces"
+    }
+  },
+  "login": {
+    " login": " Login",
+    "heading": " Please choose login method",
+    "gmail": " Sign in with Gmail",
+    "outlook": "Sign in with Outlook",
+    "Email": "Email",
+    "Phone": "Phone",
+    " Change": " Change",
+    "phone":"Phone with country code",
+    " Next":" Next",
+    "Password":"Password",
+    "ForgotPassword":"Forgot Password?",
+    "account":" Don’t have an account?",
+    " Signup":" Signup"
+
+
+  }
+}
