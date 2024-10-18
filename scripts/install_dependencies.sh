@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 # Update package index and install apache2 and unzip
 sudo apt-get update -y
