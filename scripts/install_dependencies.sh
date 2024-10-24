@@ -35,4 +35,4 @@ else
     echo "Network '$NETWORK_NAME' created."
 fi
 
-sudo docker run -d -p 80:80 --name aura-frontend --network aura-network 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-frontend:latest
+#sudo docker run -d -p 80:80 --name aura-frontend --network aura-network 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-frontend:latest
