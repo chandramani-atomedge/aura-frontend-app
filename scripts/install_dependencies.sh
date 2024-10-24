@@ -18,12 +18,8 @@ echo "$TOKEN" | sudo docker login --username AWS --password-stdin 270514764245.d
 
 docker pull 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-frontend:latest
 
-docker rm -f aura-frontend || true
+docker rm -f 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-frontend:latest || true
  
-#docker network create aura-network
-
-#!/bin/bash
-
 NETWORK_NAME="aura-network"
 
 # Check if the network already exists
