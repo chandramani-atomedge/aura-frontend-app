@@ -16,7 +16,7 @@ if [ -z "$TOKEN" ]; then
 fi
 echo "$TOKEN" | sudo docker login --username AWS --password-stdin 270514764245.dkr.ecr.us-east-1.amazonaws.com
 
-docker pull 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-frontend:latest
+docker pull 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-middleware:latest
 
 # docker rm -f 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-frontend:latest || true
  
