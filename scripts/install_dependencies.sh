@@ -15,6 +15,6 @@ IMAGE_TAG=$(aws ssm get-parameter --name "frontend-image-tag" --region ap-south-
 
 # docker rm -f 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-middleware:latest || true
 
-docker pull 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-middleware:$IMAGE_TAG
+# docker pull 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-middleware:$IMAGE_TAG
 
 docker pull 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-frontend:$IMAGE_TAG
